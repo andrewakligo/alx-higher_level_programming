@@ -50,8 +50,8 @@ class SinglyLinkedList:
             ptr_prev = ptr
             ptr = ptr.next_node
 
-        newNode = Node(value, ptr)
+        new_node = Node(value, ptr)
         if ptr == self.__head:
-            self.__head = newNode
+            self.__head = new_node
         else:
-            ptr_prev.next_node = newNode
+            ptr_prev.next_node = new_node
